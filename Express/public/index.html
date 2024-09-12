@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+</head>
+<body>    
+    <h1>Posts App</h1>
+    <form id="form">
+        <input type="input" name="title" id="title" placeholder="Type in post to add"> 
+        <button type="submit">Add</button>
+    </form>
+    
+    <br>
+
+    <div>
+        <input type="input" id="search-field" placeholder="Search post by id"> 
+        <button id="search-btn">Search</button>
+    </div>
+    
+    <div>
+        <button id="btn">Get Posts</button>
+        <div id="err-msg" style="color: red"></div>
+    </div>
+    <div id="output"></div>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>
